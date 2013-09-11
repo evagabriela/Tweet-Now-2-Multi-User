@@ -7,7 +7,10 @@ def oauth_consumer
   )
 end
 
-def request_token
+# Since we are using OAuth, we need to set a callback function which is the route the
+# application will be directed to after the user is authenticated. When we are using 
+ # locahost, this callback function is actually set in the request token(here is defined under the helpers as request token)
+def request_token  
   if not session[:request_token]
     # this 'host_and_port' logic allows our app to work both locally and on Heroku
     host_and_port = request.host

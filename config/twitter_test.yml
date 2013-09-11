@@ -1,0 +1,8 @@
+TWITTER_KEY: "agqCXdBWoYCj1NLzSbbw"
+
+TWITTER_SECRET: "zuJcbw4YaUPp9R20n215mi216iZkqt2CDnToRssk"
+
+
+
+# $ export TWITTER_KEY=<your_twitter_consumer_key>
+# $ export TWITTER_SECRET=<your_twitter_consumer_secret>
